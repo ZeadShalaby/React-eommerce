@@ -1,0 +1,53 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "firstname": "ahamed",
+            "lastname": "yousef",
+            "email": "ahamed@fox.com",
+            "password": "ahamed"
+        },
+        {
+            "id": 2,
+            "firstname": "mona",
+            "lastname": "ahamed",
+            "email": "mona@fox.com",
+            "password": "mona"
+        },
+        {
+            "id": 3,
+            "firstname": "saed",
+            "lastname": "sharf",
+            "email": "saed@fox.com",
+            "password": "saed"
+        },
+        {
+            "id": 4,
+            "firstname": "salma",
+            "lastname": "hamdy",
+            "email": "salma@fox.com",
+            "password": "salma"
+        },
+        {
+            "id": 5,
+            "firstname": "zead",
+            "lastname": "shalaby",
+            "email": "zead@fox.com",
+            "password": "zead"
+        },
+        {
+            "id": 6,
+            "firstname": "ali",
+            "lastname": "hammed",
+            "email": "ali@fox.com",
+            "password": "ali"
+        },
+        {
+            "id": 7,
+            "firstname": "rowyda",
+            "lastname": "ehab",
+            "email": "rowyda@fox.com",
+            "password": "rowyda"
+        }
+    ]
+}
