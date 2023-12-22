@@ -11,9 +11,8 @@ import ProductDetail from "../components/Products/ProductDetail";
 import Cart from "../views/Cart/CartIndex";
 import Login from "../components/Login/Login";
 import Register from "../components/Register/Register";
-import Logins from "../controllers/Login.js";
 import UsersDetails from "../components/users/users.js";
-
+import Userpage from "../views/users/userprofile.js";
 function PublicRoutes() {
   return (
     <BrowserRouter>
@@ -28,8 +27,8 @@ function PublicRoutes() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/logins" element={<Logins />} />
           <Route path="/UsersDetails" element={<UsersDetails />} />
+          <Route path="/userpage" element={<Userpage />} />
         </Route>
       </Routes>
     </BrowserRouter>

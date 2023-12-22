@@ -17,6 +17,12 @@ function Register() {
 
   const onHandleSubmitSinup = (data) => {
     console.log("form data", data);
+    sessionStorage.removeItem("email");
+    sessionStorage.removeItem("firstname");
+    sessionStorage.removeItem("lastname");
+    sessionStorage.removeItem("password");
+    sessionStorage.removeItem("id");
+    localStorage.setItem("localUser", JSON.stringify(data));
 
     toast.success("Signup Successful !", {
       position: "bottom-left",
@@ -101,6 +107,19 @@ function Register() {
               helperText={errors?.password ? errors.password.message : null}
             />
           </Box>
+          <Box mb={6}>
+            <TextField
+              type="number"
+              variant="standard"
+              label="phone"
+              fullWidth
+              autoComplete="phone"
+              autoFocus
+              {...register("phone", { required: "phone is required*" })}
+              error={!!errors?.phone}
+              helperText={errors?.phone ? errors.phone.message : null}
+            />
+          </Box>
           <Box mb={2}>
             <Button
               className="bg-primary"
@@ -129,3 +148,34 @@ function Register() {
 }
 
 export default Register;
+
+/*
+
+etch('https://fakestoreapi.com/users',{
+            method:"POST",
+            body:JSON.stringify(
+                {
+                    email:'John@gmail.com',
+                    username:'johnd',
+                    password:'m38rmF$',
+                    name:{
+                        firstname:'John',
+                        lastname:'Doe'
+                    },
+                    address:{
+                        city:'kilcoole',
+                        street:'7835 new road',
+                        number:3,
+                        zipcode:'12926-3874',
+                        geolocation:{
+                            lat:'-37.3159',
+                            long:'81.1496'
+                        }
+                    },
+                    phone:'1-570-236-7033'
+                }
+            )
+        })
+            .then(res=>res.json())
+            .then(json=>console.log(json))
+*/

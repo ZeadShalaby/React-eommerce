@@ -2,11 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { TextField } from "@mui/material";
 import { Container } from "@mui/material";
+import { toast } from "react-toastify";
 import { Button } from "@mui/material";
 import { Box } from "@mui/material";
 import { useForm } from "react-hook-form";
-import UsersModel from "./users_db.json";
-
+import datas from "./users_db.json";
 function Login() {
   const {
     register,
@@ -16,13 +16,36 @@ function Login() {
   } = useForm();
 
   const getLocal = localStorage.getItem("localUser");
-  var user = JSON.parse(getLocal);
-  console.log("user", user);
+  var userr = JSON.parse(getLocal);
 
   const onHandleSubmitLogin = (data) => {
-    console.log("form data login", data);
     reset();
-    return data;
+    let i = 0;
+    const email = data.email;
+    const password = data.password;
+    let item = { email, password };
+    let users = [];
+    datas?.users?.map((element) => {
+      if (item.password == element.password) {
+        i = 1;
+        console.log(element);
+        users.push(element);
+        // todo send info
+        sessionStorage.setItem("firstname", element.firstname);
+        sessionStorage.setItem("lastname", element.lastname);
+        sessionStorage.setItem("email", element.email);
+        sessionStorage.setItem("password", element.password);
+        sessionStorage.setItem("id", element.id);
+
+        // todo
+        window.location.assign("/userpage");
+      }
+    });
+    if (i == 0) {
+      toast.error("oops Some thing Wrongs!", {
+        position: "bottom-left",
+      });
+    }
   };
 
   return (
@@ -42,7 +65,6 @@ function Login() {
           </div>
         </div>
       </div>
-
       <Container className="login" maxWidth="sm">
         <h1>Login</h1>
         <form onSubmit={handleSubmit(onHandleSubmitLogin)}>
@@ -50,11 +72,13 @@ function Login() {
             <TextField
               type="email"
               variant="standard"
-              label="Email"
+              label="email"
               fullWidth
               autoComplete="email"
               autoFocus
-              {...register("email", { required: "Email Name is required" })}
+              {...register("email", {
+                required: "email Name is required",
+              })}
               error={!!errors?.email}
               helperText={errors?.email ? errors.email.message : null}
             />
@@ -101,3 +125,28 @@ function Login() {
 }
 
 export default Login;
+
+/*
+ ! to call api local but some thing wrong 
+ ! api cant read item {{email , password}}
+ 
+ ? let result = await fetch("http://localhost:8000/api/v1/users/login", {
+  ?    method: "POST",
+   ?   body: JSON.stringify({ item }),
+    ?});
+    ?result = await result.json();
+    ?console.log(result);
+    ?console.log(item);
+
+     const datainfo = {
+          _id: loginuser._id,
+          name: loginuser.name,
+          email: loginuser.email,
+          role: loginuser.role,
+        };
+        const jwtToken = jwt.sign(datainfo, process.env.JWT_SECRECT);
+        res.cookie("token", jwtToken);
+        res.json("token : ", jwtToken);
+
+
+*/
