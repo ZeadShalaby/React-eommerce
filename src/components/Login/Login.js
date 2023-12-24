@@ -36,6 +36,7 @@ function Login() {
         sessionStorage.setItem("email", element.email);
         sessionStorage.setItem("password", element.password);
         sessionStorage.setItem("id", element.id);
+        //sessionStorage.setItem("img", element.img);
 
         // todo
         window.location.assign("/userpage");

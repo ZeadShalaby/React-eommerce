@@ -145,10 +145,10 @@ function ProductsList() {
               className="col-lg-3 h-100 col-md-6 col-sm-12 pb-1"
               key={product.id}
             >
-              <div className="card product-item border-0 mb-4">
+              <div className="card product-item border-0 mb-4" style={{borderRadius: "50px"}}>
                 <div
                   className="card-header product-img position-relative overflow-hidden bg-transparent border p-0 text-center "
-                  style={{ height: "300px" }}
+                  style={{ height: "300px"  ,  borderRadius: "50px"}}
                 >
                   <img
                     className="img-fluid "
@@ -157,7 +157,7 @@ function ProductsList() {
                     alt={product.title}
                   />
                 </div>
-                <div className="card-body border-left border-right text-center p-0 pt-4 pb-3">
+                <div className="card-body border-left border-right text-center p-0 pt-4 pb-3" >
                   <h6 className="text-truncate mb-3">
                     {" "}
                     {product.title.substring(0, 12)}{" "}
@@ -166,7 +166,10 @@ function ProductsList() {
                     <h6> ${product.price}</h6>
                   </div>
                 </div>
-                <div className="card-footer d-flex justify-content-center bg-light border">
+                <div className="card-footer d-flex justify-content-center bg-light border" 
+                 style = {{borderRadius: "10px" , border: `none`}}
+                
+                >
                   <Link
                     to={`/products/${product.id}`}
                     className="btn btn-outline-dark px-4 py-2"

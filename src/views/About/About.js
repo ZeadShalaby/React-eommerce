@@ -28,7 +28,7 @@ function About() {
           </div>
           <div className="row px-xl-5">
             <div className="col-lg-5 mb-5">
-               <img className="img-fluid w-100 " src="/assets/img/sf.jpeg" alt="anh"/>
+               <img className="img-fluid w-100 " src="/assets/img/about.jpeg" alt="anh"/>
             </div>
             <div className="col-lg-7 mb-5">
             <div className="text-justify">
