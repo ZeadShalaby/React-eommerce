@@ -8,6 +8,7 @@ const firstname = sessionStorage.getItem("firstname");
 const lastname = sessionStorage.getItem("lastname");
 const password = sessionStorage.getItem("password");
 const id = sessionStorage.getItem("id");
+//const img = sessionStorage.getItem("img");
 
 const onHandleSubmitLogin = (data) => {
   const email = sessionStorage.removeItem("email");
@@ -15,6 +16,8 @@ const onHandleSubmitLogin = (data) => {
   const lastname = sessionStorage.removeItem("lastname");
   const password = sessionStorage.removeItem("password");
   const id = sessionStorage.removeItem("id");
+  //const img = sessionStorage.removeItem("img");
+  
   window.location.reload(false);
   window.location.assign("/");
 };

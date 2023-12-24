@@ -145,7 +145,10 @@ function ProductsList() {
               className="col-lg-3 h-100 col-md-6 col-sm-12 pb-1"
               key={product.id}
             >
-              <div className="card product-item border-0 mb-4">
+              <div
+                className="card product-item border-0 mb-4"
+                style={{ borderRadius: "50px" }}
+              >
                 <div
                   className="card-header product-img position-relative overflow-hidden bg-transparent border p-0 text-center "
                   style={{
