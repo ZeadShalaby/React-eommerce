@@ -6,7 +6,7 @@ import { toast } from "react-toastify";
 import { Button } from "@mui/material";
 import { Box } from "@mui/material";
 import { useForm } from "react-hook-form";
-function addproduct() {
+function Addproduct() {
   const {
     register,
     handleSubmit,
@@ -162,4 +162,4 @@ function addproduct() {
   );
 }
 
-export default addproduct;
+export default Addproduct;

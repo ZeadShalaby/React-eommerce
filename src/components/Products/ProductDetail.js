@@ -60,7 +60,7 @@ function ProductDetail() {
           <h3 className="display-5"> {product.title} </h3>
           <p className="lead fw-bolder mb-3 ">
             Rating {product.rating && product.rating.rate}{" "}
-            <i className="fa fa-star"></i>{" "}
+            <i  style={{color : "#dbd034"}} className="fa fa-star"></i>{" "}
           </p>
           <h3 className="font-weight-semi-bold mb-4">$ {product.price}</h3>
           <p className="mb-4">{product.description}</p>
