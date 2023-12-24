@@ -1,3 +1,110 @@
+<br/>
+<p align="center">
+  <a href="https://github.com/ZeadShalaby/API_REVIVE_SYSTEM">
+          <img src="https://i.imgur.com/IlaMEM9.png" alt="Logo" width="300" height="270">
+  </a>
+    
+<h3 align="center">API REVIVE SYSTEM</h3>
+
+  <p align="center">
+     Project Laravel | socialite (github,google) | Event Listener (View)  | use hardware | machine learning
+    <br/>
+    <br/>
+  </p>
+  
+
+![Forks](https://img.shields.io/github/forks/ZeadShalaby/API_REVIVE_SYSTEM?style=social) ![Issues](https://img.shields.io/github/issues/ZeadShalaby/API_REVIVE_SYSTEM) ![License](https://img.shields.io/github/license/ZeadShalaby/API_REVIVE_SYSTEM)
+
+## Table Of Contents
+
+* [About the Project](#about-the-project)
+* [Built With](#built-with)
+* [Getting Started](#getting-started)
+    * [Prerequisites](#prerequisites)
+    * [Installation](#installation)      
+* [Dashboard](#dashboard)
+    * [Admin](#admin)
+    * [Owner](#owner)
+    * [Client](#client)
+    * [Auth](#Auth)
+    * [Machine](#machine)    
+* [Usage](#usage)
+    * [Locally](#running-locally)
+    * [Via Container](#running-via-container)  
+* [Contributingس](#contributing)
+* [Authors](#authors)
+<!--* [Screenshots](#Screenshots)-->
+
+<!--
+## Screenshots
+<p>
+# Screenshots
+
+📌Home Page:
+
+<img src="https://i.imgur.com/bfGGH7U.png" alt="project(Coise-User)" width="1000" height="450">
+
+
+
+📌Login Page:
+
+
+<img src="https://i.imgur.com/O680nDN.png" alt="project(Coise-User)" width="1000" height="400">
+
+
+
+
+📌Departments Page: 
+
+
+
+<img src="https://i.imgur.com/VXNDEjT.png" alt="project(Coise-User)" width="1000" height="400">
+
+
+
+📌Orders Page: 
+
+
+
+<img src="https://i.imgur.com/QJTlibX.png" alt="project(Coise-User)" width="1000" height="400">
+
+
+
+📌User Page: 
+
+
+
+<img src="https://i.imgur.com/n7z8WjA.png" alt="project(Coise-User)" width="1000" height="400">
+
+
+
+📌Favourite Page: 
+
+
+
+<img src="https://i.imgur.com/TqZCrfC.png" alt="project(Coise-User)" width="1000" height="400">
+
+
+
+📌Event Page: 
+
+
+
+<img src="https://i.imgur.com/7xbb9nU.png" alt="project(Coise-User)" width="1000" height="400">
+
+
+
+
+
+</p>
+-->
+## About The Project
+
+Analyzing greenhouse gases at industrial & touristic areas & Revive environment ,
+We have a machine consisting of some sensors that read the percentages of greenhouse gases and temperatures in industrial or tourist places. The machine relies on entering this data into API daily to use this data that was recorded to train the data using machine learning to know the permissible percentages in the secretion of oxide gases or greenhouse gases
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
