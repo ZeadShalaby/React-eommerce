@@ -24,19 +24,18 @@ function Login() {
     const email = data.email;
     const password = data.password;
     let item = { email, password };
-    let users = [];
     datas?.users?.map((element) => {
       if (item.password == element.password) {
         i = 1;
         console.log(element);
-        users.push(element);
         // todo send info
         sessionStorage.setItem("firstname", element.firstname);
         sessionStorage.setItem("lastname", element.lastname);
         sessionStorage.setItem("email", element.email);
         sessionStorage.setItem("password", element.password);
         sessionStorage.setItem("id", element.id);
-        //sessionStorage.setItem("img", element.img);
+        sessionStorage.setItem("role", element.role);
+        sessionStorage.setItem("img", element.img);
 
         // todo
         window.location.assign("/userpage");

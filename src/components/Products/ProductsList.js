@@ -8,7 +8,6 @@ function ProductsList() {
   const [filter, setFilter] = useState(data);
   const [loading, setLoading] = useState(false);
   let componentMounted = true;
-
   useEffect(() => {
     const getProducts = async () => {
       setLoading(true);

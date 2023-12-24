@@ -5,49 +5,63 @@
             "firstname": "ahamed",
             "lastname": "yousef",
             "email": "ahamed@fox.com",
-            "password": "ahamed"
+            "password": "ahamed",
+            "img": "",
+            "role": "customer"
         },
         {
             "id": 2,
             "firstname": "mona",
             "lastname": "ahamed",
             "email": "mona@fox.com",
-            "password": "mona"
+            "password": "mona",
+            "img": "",
+            "role": "Admin"
         },
         {
             "id": 3,
             "firstname": "saed",
             "lastname": "sharf",
             "email": "saed@fox.com",
-            "password": "saed"
+            "password": "saed",
+            "img": "",
+            "role": "Admin"
         },
         {
             "id": 4,
             "firstname": "salma",
             "lastname": "hamdy",
             "email": "salma@fox.com",
-            "password": "salma"
+            "password": "salma",
+            "img": "",
+            "role": "Admin"
         },
         {
             "id": 5,
             "firstname": "zead",
             "lastname": "shalaby",
             "email": "zead@fox.com",
-            "password": "zead"
+            "password": "zead",
+            "img": "",
+            "role": "Admin"
         },
         {
             "id": 6,
             "firstname": "ali",
             "lastname": "hammed",
             "email": "ali@fox.com",
-            "password": "ali"
+            "password": "ali",
+            "img": "",
+            "role": "customer"
         },
         {
             "id": 7,
             "firstname": "rowyda",
             "lastname": "ehab",
             "email": "rowyda@fox.com",
-            "password": "rowyda"
+            "password": "rowyda",
+            "img": "",
+            "role": "customer"
         }
     ]
 }
