@@ -15,16 +15,31 @@ function addproduct() {
   } = useForm();
 
   const onHandleSubmitLogin = (data) => {
-    reset();
     let i = 0;
     const title = data.title;
-    const price = data.title;
-    const description = data.title;
+    const price = data.price;
+    const description = data.description;
     const image = "https://i.pravatar.cc";
     const category = data.category;
 
     let item = { title, price, description, image, category };
-    let users = [];
+    fetch("https://fakestoreapi.com/products", {
+      method: "POST",
+      body: JSON.stringify({
+        title: item.title,
+        price: item.price,
+        description: item.description,
+        image: item.image,
+        category: item.category,
+      }),
+    })
+      .then((res) => res.json())
+      .then((json) => console.log(json));
+
+    toast.success("Add Products Successfully!", {
+      position: "bottom-left",
+    });
+    reset();
   };
   return (
     <>
@@ -83,7 +98,7 @@ function addproduct() {
           </Box>
           <Box mb={6}>
             <TextField
-              type="text"
+              type="file"
               variant="standard"
               label="image"
               fullWidth
@@ -109,7 +124,7 @@ function addproduct() {
           </Box>
           <Box mb={6}>
             <TextField
-              type="text"
+              type=""
               variant="standard"
               label="category"
               fullWidth

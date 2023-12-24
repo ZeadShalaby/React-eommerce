@@ -16,7 +16,7 @@
             "email": "mona@fox.com",
             "password": "mona",
             "img": "",
-            "role": "Admin"
+            "role": "customer"
         },
         {
             "id": 3,

@@ -49,11 +49,23 @@ function Header(props) {
     </div>
   );
   let Add;
+  let Add2;
   if (id > 0) {
     if (role == "Admin") {
       Add = (
         <Link to="/Addproducts" className="nav-item nav-link">
           Add product
+        </Link>
+      );
+      Add2 = (
+        <Link to="/UsersDetails" className="nav-item nav-link">
+          UsersDetails
+        </Link>
+      );
+    } else {
+      Add = (
+        <Link to="/UsersShopping" className="nav-item nav-link">
+          Shopping History
         </Link>
       );
     }
@@ -77,10 +89,9 @@ function Header(props) {
         <Link to="/userpage" className="nav-item nav-link">
           Account
         </Link>
-        <Link to="/UsersShopping" className="nav-item nav-link">
-          Shopping History
-        </Link>
+
         {Add}
+        {Add2}
       </div>
     );
 
@@ -88,7 +99,7 @@ function Header(props) {
       <div className="navbar-nav ml-auto py-0">
         <button
           onClick={onHandleSubmitLogin}
-          style={{ border: `none`, background: "white", marginLeft: "-10px" }}
+          style={{ border: `none`, background: "white", marginRight: "20px" }}
         >
           logout
         </button>

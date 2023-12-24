@@ -12,6 +12,7 @@ import Cart from "../views/Cart/CartIndex";
 import Login from "../components/Login/Login";
 import Register from "../components/Register/Register";
 import UsersShopping from "../components/usersshopping/usersshopping.js";
+import UsersDetails from "../components/usersshopping/allusers.js";
 import Userpage from "../views/users/userprofile.js";
 import Addproducts from "../components/Products/addproduct.js";
 function PublicRoutes() {
@@ -29,6 +30,7 @@ function PublicRoutes() {
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/UsersShopping" element={<UsersShopping />} />
+          <Route path="/UsersDetails" element={<UsersDetails />} />
           <Route path="/userpage" element={<Userpage />} />
           <Route path="/Addproducts" element={<Addproducts />} />
         </Route>
