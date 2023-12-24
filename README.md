@@ -5,10 +5,10 @@
     
   </a>
     
-<h3 align="center">API REVIVE SYSTEM</h3>
+<h3 align="center">Koko Fashion</h3>
 
   <p align="center">
-     Project Laravel | socialite (github,google) | Event Listener (View)  | use hardware | machine learning
+     Project React with redux & api 
     <br/>
     <br/>
   </p>
@@ -20,21 +20,12 @@
 
 * [About the Project](#about-the-project)
 * [Built With](#built-with)
-* [Getting Started](#getting-started)
-    * [Prerequisites](#prerequisites)
-    * [Installation](#installation)      
-* [Dashboard](#dashboard)
-    * [Admin](#admin)
-    * [Owner](#owner)
-    * [Client](#client)
-    * [Auth](#Auth)
-    * [Machine](#machine)    
+* [Getting Started](#getting-started)    
 * [Usage](#usage)
     * [Locally](#running-locally)
     * [Via Container](#running-via-container)  
-* [Contributingس](#contributing)
+* [Screenshots](#Screenshots)
 * [Authors](#authors)
-<!--* [Screenshots](#Screenshots)-->
 
 <!--
 ## Screenshots
@@ -176,3 +167,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Authors
+* **Ziad Shalaby** - *Computer Science Student* - [Ziad Shalaby](https://github.com/ZeadShalaby)
+* **Salma Hamdy** - *Computer Science Student* - [Salma Hamdy](https://github.com/salmaserag)
+* **Said Sharaf** - *Computer Science Student* - [Said Sharaf](https://github.com/Saidsharaf)
+* **Rowyda Ehab** - *Computer Science Student* - [Rowyda Ehab](https://github.com/RowydaEhab8)
+* **Ali Hammed** - *Computer Science Student* - [Ali Hammed](https://github.com/Aliatia20)
+
+
