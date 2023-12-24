@@ -148,7 +148,11 @@ function ProductsList() {
               <div className="card product-item border-0 mb-4">
                 <div
                   className="card-header product-img position-relative overflow-hidden bg-transparent border p-0 text-center "
-                  style={{ height: "300px" }}
+                  style={{
+                    borderRadius: "50%",
+                    height: "300px",
+                    width: "100%",
+                  }}
                 >
                   <img
                     className="img-fluid "
@@ -166,7 +170,13 @@ function ProductsList() {
                     <h6> ${product.price}</h6>
                   </div>
                 </div>
-                <div className="card-footer d-flex justify-content-center bg-light border">
+                <div
+                  className="card-footer d-flex justify-content-center bg-light border"
+                  style={{
+                    borderRadius: "50%",
+                    border: "2px solid",
+                  }}
+                >
                   <Link
                     to={`/products/${product.id}`}
                     className="btn btn-outline-dark px-4 py-2"
