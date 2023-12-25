@@ -20,7 +20,7 @@
 
 * [About the Project](#about-the-project)
 * [Built With](#built-with)
-* [Getting Started](#Getting Started with Create React App)    
+* [Getting Started](#Getting-Started-with-Create-React-Ap)    
 * [Usage](#usage)
     * [Available Scripts](#running-locally)
     * [Learn More](#running-via-container)  
