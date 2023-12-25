@@ -34,7 +34,7 @@
 
 📌Home Page:
 
-<img src="https://imgur.com/z0k1KSz.png" alt="project(Coise-User)" width="1000" height="450">
+<img src="https://imgur.com/z0k1KSz.png" alt="project(Coise-User)" width="1000" height="550">
 
 
 
