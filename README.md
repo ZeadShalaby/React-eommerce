@@ -41,49 +41,56 @@
 📌Login Page:
 
 
-<img src="https://i.imgur.com/O680nDN.png" alt="project(Coise-User)" width="1000" height="400">
+<img src="https://imgur.com/WWuCg4l.png" alt="project(Coise-User)" width="1000" height="400">
 
 
 
 
-📌Departments Page: 
+📌About Page: 
 
 
 
-<img src="https://i.imgur.com/VXNDEjT.png" alt="project(Coise-User)" width="1000" height="400">
+<img src="https://imgur.com/m0YeErd.png" alt="project(Coise-User)" width="1000" height="400">
 
 
 
-📌Orders Page: 
+📌Contact_Us Page: 
 
 
 
-<img src="https://i.imgur.com/QJTlibX.png" alt="project(Coise-User)" width="1000" height="400">
+<img src="https://imgur.com/5PCNy3z.png" alt="project(Coise-User)" width="1000" height="400">
 
 
 
-📌User Page: 
+📌Cart Page: 
 
 
 
-<img src="https://i.imgur.com/n7z8WjA.png" alt="project(Coise-User)" width="1000" height="400">
+<img src="https://imgur.com/gfFP8R0.png" alt="project(Coise-User)" width="1000" height="400">
 
 
 
-📌Favourite Page: 
+📌Shopping History Page: 
 
 
 
-<img src="https://i.imgur.com/TqZCrfC.png" alt="project(Coise-User)" width="1000" height="400">
+<img src="https://imgur.com/rFuwS4V.png" alt="project(Coise-User)" width="1000" height="400">
 
 
 
-📌Event Page: 
+📌Profile Page: 
 
 
 
-<img src="https://i.imgur.com/7xbb9nU.png" alt="project(Coise-User)" width="1000" height="400">
+<img src="https://imgur.com/7jIjskB.png" alt="project(Coise-User)" width="1000" height="400">
 
+
+
+📌Footer Page: 
+
+
+
+<img src="https://imgur.com/EJpLFIG.png" alt="project(Coise-User)" width="1000" height="400">
 
 
 
