@@ -34,7 +34,7 @@
 
 📌Home Page:
 
-<img src="https://i.postimg.cc/YhnS9Tj9/Koko-Fashion-Personal-Microsoft-Edge-12-25-2023-1-32-33-AM.png" alt="project(Coise-User)" width="1000" height="450">
+<img src="https://i.postimg.cc/YhnS9Tj9/Koko-Fashion-Personal-Microsoft-Edge" alt="project(Coise-User)" width="1000" height="450">
 
 
 
