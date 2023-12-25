@@ -41,7 +41,7 @@
 📌Login Page:
 
 
-<img src="https://imgur.com/WWuCg4l.png" alt="project(Coise-User)" width="1000" height="460">
+<img src="https://imgur.com/WWuCg4l.png" alt="project(Coise-User)" width="1000" height="550">
 
 
 
@@ -50,7 +50,7 @@
 
 
 
-<img src="https://imgur.com/m0YeErd.png" alt="project(Coise-User)" width="1000" height="400">
+<img src="https://imgur.com/m0YeErd.png" alt="project(Coise-User)" width="1000" height="550">
 
 
 
@@ -58,7 +58,7 @@
 
 
 
-<img src="https://imgur.com/5PCNy3z.png" alt="project(Coise-User)" width="1000" height="400">
+<img src="https://imgur.com/5PCNy3z.png" alt="project(Coise-User)" width="1000" height="550">
 
 
 
@@ -66,7 +66,7 @@
 
 
 
-<img src="https://imgur.com/gfFP8R0.png" alt="project(Coise-User)" width="1000" height="400">
+<img src="https://imgur.com/gfFP8R0.png" alt="project(Coise-User)" width="1000" height="550">
 
 
 
@@ -74,7 +74,7 @@
 
 
 
-<img src="https://imgur.com/rFuwS4V.png" alt="project(Coise-User)" width="1000" height="400">
+<img src="https://imgur.com/rFuwS4V.png" alt="project(Coise-User)" width="1000" height="550">
 
 
 
@@ -82,7 +82,7 @@
 
 
 
-<img src="https://imgur.com/7jIjskB.png" alt="project(Coise-User)" width="1000" height="400">
+<img src="https://imgur.com/7jIjskB.png" alt="project(Coise-User)" width="1000" height="550">
 
 
 
@@ -90,7 +90,7 @@
 
 
 
-<img src="https://imgur.com/EJpLFIG.png" alt="project(Coise-User)" width="1000" height="400">
+<img src="https://imgur.com/EJpLFIG.png" alt="project(Coise-User)" width="1000" height="550">
 
 
 
