@@ -41,7 +41,7 @@
 📌Login Page:
 
 
-<img src="https://imgur.com/WWuCg4l.png" alt="project(Coise-User)" width="1000" height="400">
+<img src="https://imgur.com/WWuCg4l.png" alt="project(Coise-User)" width="1000" height="460">
 
 
 
