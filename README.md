@@ -24,7 +24,7 @@
 * [Usage](#usage)
     * [Available Scripts](#running-locally)
     * [Learn More](#running-via-container)  
-* [Screenshots](#Screenshots
+* [Screenshots](#Screenshots)
 * [Domain](#domain)
 * [Authors](#authors)
 * [Contributing](#contributing)
