@@ -24,7 +24,8 @@
 * [Usage](#usage)
     * [Available Scripts](#running-locally)
     * [Learn More](#running-via-container)  
-* [Screenshots](#Screenshots)
+* [Screenshots](#Screenshots
+* [Domain](#domain)
 * [Authors](#authors)
 * [Contributing](#contributing)
 
@@ -176,6 +177,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
+## domain
+* If you have suggestions for show projects, feel free
+  to [open an issue](https://react-eommerce.vercel.app/) to discuss it, or directly
 
 ## Contributing
 
